@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#706e6e"
+    tools:context=".AppGuide.AppGuideImageActivity">3
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitCenter"
+        android:src="@drawable/fm_app_guide" />
+
+    <ImageView
+        android:layout_width="74dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="15dp"
+        android:onClick="onAppGuideListener"
+        android:padding="5dp"
+        android:src="@drawable/main_guide_close_drawable" />
+
+</RelativeLayout>

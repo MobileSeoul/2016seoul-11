@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- 커스텀 메인 컬러 -->
+    <color name="myColorPrimary">#22b8cf</color>
+    <color name="myColorPrimaryDark">#303F9F</color>
+    <color name="myColorAccent">#22b8cf</color>
+    <color name="myColorBase">#22b8cf</color>
+    <color name="myColorText">#495057</color>
+</resources>

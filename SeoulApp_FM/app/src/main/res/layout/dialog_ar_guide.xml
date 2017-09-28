@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/dialog_ar_guide_check">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/ar_guide_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/dialog_ar_guid_close"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_margin="5dp"
+            android:padding="5dp"
+            android:src="@drawable/btn_close" />
+
+        <com.matthewtamlin.sliding_intro_screen_library.DotIndicator
+            android:id="@+id/ar_guide_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:padding="10dp" />
+    </RelativeLayout>
+
+    <CheckBox
+        android:id="@+id/dialog_ar_guide_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="다시 보지 않기" />
+
+</RelativeLayout>

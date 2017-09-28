@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/introduce_scroll_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:scrollbars="none"
+    tools:context="com.example.song.seoulapp_fm.IntroduceActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/introduce_btn_start"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp">
+
+            <ImageView
+                android:layout_width="3dp"
+                android:layout_height="match_parent"
+                android:background="#212529" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp">
+
+                <TextView
+                    android:id="@+id/introduce_text_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical"
+                    android:text="경복궁 "
+                    android:textColor="#343a40"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/introduce_text_sub_title"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:letterSpacing="-0.03"
+                    android:text="조선 왕조 제일의 법궁"
+                    android:textColor="#495057"
+                    android:textSize="16dp" />
+
+            </RelativeLayout>
+
+            <ImageView
+                android:id="@+id/introduce_image_stamp"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/stamp_yes_1" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/introduce_map"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:layout_marginTop="25dp"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/introduce_text_address"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:letterSpacing="-0.03"
+            android:lineSpacingMultiplier="1.2"
+            android:text="·\t주소: 서울특별시 종로구 사직로 161 (세종로, 경복궁)\n·\t전화번호: 02+-99555-5454545\n·\t개방시간: 오전 09:00시~ 오후 19:00시 운영(야간개장)"
+            android:textColor="#868e96"
+            android:textSize="12dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/background_round_dddddd"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/introduce_text_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/background_round_white"
+                android:lineSpacingMultiplier="1.4"
+                android:padding="10dp"
+                android:text="1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고, 1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고,1395년 태조 이성계가 창건하였고, "
+                android:textColor="#343a40"
+                android:textSize="12dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/introduce_btn_start"
+            android:layout_width="99dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/btn_start_drawable"
+            android:onClick="onIntroduceListener" />
+    </LinearLayout>
+</ScrollView>

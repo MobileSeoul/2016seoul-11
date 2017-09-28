@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:adjustViewBounds="true"
+        android:src="@drawable/backgroud_map" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_centerInParent="true"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <View
+                android:id="@+id/main_icon_1_left"
+                android:layout_width="15dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/main_icon_1"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_toRightOf="@id/main_icon_1_left"
+                android:background="@drawable/place_black_1"
+                android:onClick="onMainIconListener" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_icon_2"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/place_black_2"
+                android:onClick="onMainIconListener" />
+
+            <Button
+                android:id="@+id/main_icon_3"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="30dp"
+                android:layout_toRightOf="@id/main_icon_2"
+                android:background="@drawable/place_black_3"
+                android:onClick="onMainIconListener" />
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="2"></LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <Button
+                    android:id="@+id/main_icon_4"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/place_black_4"
+                    android:onClick="onMainIconListener" />
+
+                <Button
+                    android:id="@+id/main_icon_5"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/place_black_5"
+                    android:onClick="onMainIconListener" />
+
+                <Button
+                    android:id="@+id/main_icon_6"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/place_black_6"
+                    android:onClick="onMainIconListener" />
+
+                <Button
+                    android:id="@+id/main_icon_7"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/place_black_7"
+                    android:onClick="onMainIconListener" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_icon_8"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginRight="15dp"
+                android:layout_toLeftOf="@+id/main_icon_9"
+                android:background="@drawable/place_black_8"
+                android:onClick="onMainIconListener" />
+
+            <Button
+                android:id="@+id/main_icon_9"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_toLeftOf="@+id/main_icon_9_right"
+                android:background="@drawable/place_black_9"
+                android:onClick="onMainIconListener" />
+
+            <View
+                android:id="@+id/main_icon_9_right"
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:id="@+id/main_icon_10"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/main_icon_9_right"
+                android:background="@drawable/place_black_10"
+                android:onClick="onMainIconListener" />
+
+            <Button
+                android:id="@+id/main_icon_12"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/main_icon_10"
+                android:background="@drawable/place_black_12"
+                android:onClick="onMainIconListener" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/main_icon_11"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/place_black_11"
+                android:onClick="onMainIconListener" />
+
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Game.ARTutorialActivity">
+
+    <ImageView
+        android:id="@+id/ar_tutorial_image_center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:onClick="onArTutorialBtnListner"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ar_tutorial_image_top_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ar_tutorial_image_top_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="10dp"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ar_tutorial_image_bottom_left"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:src="@mipmap/ic_launcher" />
+
+    <ImageView
+        android:id="@+id/ar_tutorial_image_bottom_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/ic_launcher" />
+
+</RelativeLayout>

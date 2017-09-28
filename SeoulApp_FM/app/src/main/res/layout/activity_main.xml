@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    tools:context="com.example.song.seoulapp_fm.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/main_map_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:gravity="right"
+        android:textSize="12dp"
+        android:lineSpacingExtra="5dp"
+        android:text="@string/app_gps_text"
+        android:textColor="#ff8787" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="15dp"
+        android:onClick="onMainListener"
+        android:padding="5dp"
+        android:src="@drawable/base_btn_guide_drawable" />
+</RelativeLayout>
